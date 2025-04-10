@@ -26,7 +26,10 @@ body{
     justify-content: center;
 }
 #boisko{
+    display: flex;
     width: 80%;
+    justify-content: center;
+    align-items: center;
 }
 #mecze{
     display: flex;
@@ -34,15 +37,37 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    justify-content: space-around;
 }
 #B{
-   
+   display: flex;
+   height: 85%;
+   flex-direction: column;
+   align-items: center;
+   border-radius: 13px;
+   border-color: black;
+   border-width: 2px;
+   border-style: solid;
+}
+#B:hover{
+    border: 2px solid white;
 }
 #glowny{
     display: flex;
     width: 100%;
-    height: 40%;
+    height: 45%;
     flex-direction: column;
     align-items: center;
     background-color: whitesmoke;
 }
+#dolny{
+    display: flex;
+    flex-direction: row;
+}
+#prawy{
+    display: flex;
+    flex-direction: column;
+    height: 15%;
+    width: 15%;
+}
+
