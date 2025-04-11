@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    height: 100vh;
+}
+#kwadrat{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    border: 4px solid black;
+    padding: 10px;
+}
+#lewo{
+    display: flex;
+    height: 90%;
+    width: 70%;
+    flex-direction: column;
+    font-family: "Nunito";
+    font-size: 20px;
+    justify-content: space-around;
+}
+#L1{
+    display: flex;
+    width: 80%;
+    height: 15%;
+    border: 4px solid black;
+    justify-content: space-around;
+    padding: 5px;
+}
+#Pr1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    height: 90%;
+    background-color: #0B8673;
+    color: white;
+}
+#Pr2{
+    display: flex;
+    width: 15%;
+    height: 90%;
+    background-color: #0B8673;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+}
+#L2{
+    display: flex;
+    width: 70%;
+    height: 75%;
+    border: 4px solid black;
+    padding: 5px;
+}
