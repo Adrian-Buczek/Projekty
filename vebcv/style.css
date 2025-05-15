@@ -94,4 +94,45 @@ body{
 }
 #sekcja1{
     display: flex;
+    flex-direction: row;
+    height: 50%;
+    width: 100%;
+}
+
+#sekcja1P{
+    display: flex;
+    flex-direction: column;
+    
+}
+#S1G{
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    width: 70%;
+}
+#tekstduzy{
+    font-family: "Lilita One";
+    font-size: 60px;
+}
+#S1GL{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background-color: blueviolet;
+
+}
+#S1GP{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    justify-content: center;
+    background-color: aqua;
+}
+#S1D{
+    display: flex;
+    width: 90%;
+    
+    background-color: blue;
 }
