@@ -108,7 +108,7 @@ body{
     display: flex;
     flex-direction: row;
     height: 50%;
-    width: 70%;
+    width: 100%;
 }
 #tekstduzy{
     font-family: "Lilita One";
@@ -119,7 +119,7 @@ body{
     flex-direction: column;
     height: 100%;
     width: 100%;
-    background-color: blueviolet;
+    
 
 }
 #S1GP{
@@ -128,11 +128,63 @@ body{
     height: 100%;
     width: 50%;
     justify-content: center;
-    background-color: aqua;
+    
 }
 #S1D{
     display: flex;
     width: 90%;
     
-    background-color: blue;
+    
+}
+#sekcja2{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#S2L{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 50%;
+}
+#blok1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+    width: 60%;
+}
+#bl1g{
+    display: flex;
+    width: 100%;
+    border: solid 4px black;
+    justify-content: center;
+    align-items: center;
+}
+#bl1d{
+    display: flex;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+#blok2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+    width: 50%;
+}
+#bl2g{
+    display: flex;
+    background-color: black;
+    color: white;
+}
+#bl2d{
+    display: flex;
+    border: solid 4px black;
+    flex-direction: column;
 }
