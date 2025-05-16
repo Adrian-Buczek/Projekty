@@ -1,0 +1,60 @@
+body{
+    display: flex;
+    min-height: 100vh;
+    font-family: Trebuchet MS;
+    flex-direction: column;
+}
+header{
+display: flex;
+height: 20%;
+background-color: #604D53;
+color: #FDFDFF;
+font-style: oblique;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    width: 100%;
+}
+
+.ART{
+    display: flex;
+    box-sizing: border-box;
+    height: 40%;
+    justify-content: center;
+    padding: 30px;
+    flex-direction: column;
+    background-color: #D5C5C8;
+}
+section{
+    display: flex;
+    height: 15%;
+    justify-content: center;
+    align-items: center;
+    background-color: #DB7F8E;
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  #604D53;
+    color: #FDFDFF;
+    height: 8%;
+}
+#Prawa{
+    display: flex;
+    flex-grow: 1;
+    background-color: aqua;
+    width: 40%;
+}
+#gora{
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
