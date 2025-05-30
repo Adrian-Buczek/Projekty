@@ -36,6 +36,10 @@ a{
     border-radius: 6px;
     text-decoration: none;
     color: #0a0908;
+    transition: font-size 0.1s;
+}
+a:hover{
+    font-size: large;
 }
 #dolna{
     display: flex;
@@ -68,6 +72,9 @@ button{
     background-color: #1a659e;
     color: #cbeef3;
 }
+button:hover{
+    
+}
 main{
     display: flex;
     flex-direction: column;
@@ -87,7 +94,7 @@ main{
 #SGL{
     display: flex;
     width: 50%;
-    height: 100%;
+    height: 90%;
     flex-direction: column;
     justify-content: center;
     font-size: larger;
@@ -134,6 +141,8 @@ main{
     display: flex;
     height: 100%;
     width: 50%;
+    justify-content: center;
+    align-items: center;
 }
 #kwadrat1P{
     display: flex;
@@ -155,17 +164,71 @@ main{
 #k2{
     display: flex;
     justify-content: center;
+    align-items: center;
+    justify-content: space-around;
     width: 90%;
     height: 30%;
     flex-direction: row;
 }
 #k3{
     display: flex;
-    justify-content: space-around;
-    height: 100%;
+    height: 93%;
     width: 40%;
-    background-color:#f7c59f;
+    background-color: #f7c59f;
     border: solid 4px black;
     border-radius: 10px;
 }
+#k32{
+    display: flex;
+    height: 93%;
+    width: 40%;
+    background-color: #f7c59f;
+    border: solid 4px black;
+    border-radius: 10px;
+}
+#ko1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+#kw1{
+    display: flex;
+    height: 18%;
+    width: 85%;
+    background-color: #f7c59f;
+    border: solid 4px black;
+    border-radius: 10px;
+}
+#kw2{
+    display: flex;
+    height: 35%;
+    width: 85%;
+    background-color: #f7c59f;
+    border: solid 4px black;
+    border-radius: 10px;
+}
+#ko2{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 50%;
+    height: 100%;
+}
+#kw3{
+    display: flex;
+    height: 18%;
+    width: 85%;
+    background-color: #f7c59f;
+    border: solid 4px black;
+    border-radius: 10px;
+}
+#kw4{
+    display: flex;
+    height: 35%;
+    width: 85%;
+    background-color: #f7c59f;
+    border: solid 4px black;
+    border-radius: 10px;
+}
+
 
