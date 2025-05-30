@@ -1,10 +1,7 @@
-let licznik = 0
-
-const przycisk = document.querySelector("#inc")
+const przycisk = document.querySelector("#zmien")
 
 przycisk.addEventListener("click", () => {
-    console.info("CLICK")
-    licznik = licznik + 1 
-    console.info(licznik)
+    const body = document.querySelector("body")
+    body.classList.toggle("dark") 
 })
 
