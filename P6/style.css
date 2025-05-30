@@ -1,0 +1,171 @@
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family:'Trebuchet MS';
+}
+header{
+    display: flex;
+    flex-direction: row;
+    height: 8%;
+    background-color: #1a659e;
+    color: #cbeef3;
+    align-items: center;
+}
+#GL{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    font-size: larger;
+}
+#GP{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+a{
+    display: flex;
+    height:70%;
+    width: 15%;
+    background-color: #f7c59f;
+    align-items: center;justify-content: center;
+    border: solid 2px white;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #0a0908;
+}
+#dolna{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 92%;
+    align-items: center;
+    justify-content: center;
+    background-color: #f7c59f;
+}
+#L{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 40%;
+    width: 40%;
+}
+button{
+    display: flex;
+    height: 7%;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    background-color: #1a659e;
+    color: #cbeef3;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    height: 92%;
+    width: 75%;
+    background-color: #efefd0;
+}
+#gora{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    height: 50%;
+    width: 100%;
+}
+#SGL{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    font-size: larger;
+    margin-right: 10px;
+}
+#SGP{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 90%;
+    width: 45%;
+    border: solid 4px black;
+    border-radius: 10px;
+}
+#dol{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    height: 50%;
+    width: 100%;
+}
+#SDL{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+    width: 45%;
+    border: solid 4px black;
+    border-radius: 10px;
+}
+#SDP{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    font-size: larger;
+    margin-right: 10px;
+}
+#kwadrat1L{
+    display: flex;
+    height: 100%;
+    width: 50%;
+}
+#kwadrat1P{
+    display: flex;
+    height: 100%;
+    width: 50%;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   justify-content: space-around;
+}
+.k1{
+    display: flex;
+    height: 30%;
+    width: 90%;
+    background-color:#f7c59f;
+    border: solid 4px black;
+    border-radius: 10px;
+}
+#k2{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: 30%;
+    flex-direction: row;
+}
+#k3{
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    width: 40%;
+    background-color:#f7c59f;
+    border: solid 4px black;
+    border-radius: 10px;
+}
+
