@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    width: 100vh;
+    flex-direction: column;
+    color: black;
+    align-items: center;
+    background-color: bisque;
+}
+button{
+    height: 200px;
+    width: 200px;
+}
+#numer{
+    width: 600px;
+    height: 60px;
+}
+#reset{
+    width: 404px;
+}
