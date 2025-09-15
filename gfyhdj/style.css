@@ -1,0 +1,67 @@
+body{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    margin: 0;
+    font-family: tahoma;
+    font-size: 20px;
+}
+header{
+    display: flex;
+    height: 10%;
+    width: 100%;
+    background-color: #5D688A;
+    color: white;
+}
+main{
+    display: flex;
+    height: 80%;
+    width: 100%;
+}
+article{
+    display: flex;
+    height: 100%;
+    width: 70%;
+    background-color: #F7A5A5;
+    flex-direction: column;
+}
+aside{
+    display: flex;
+    height: 100%;
+    width: 30%;
+    background-color: #FFDBB6;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#p1{
+    display: flex;
+    width: 90%;
+    height: 20%;
+    background-color: #FFF2EF;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+tr{
+    display: flex;
+    height: 10%;
+    width: 40%;
+    border: 1px solid #FFF2EF;
+}
+
+footer{
+    display: flex;
+    height: 10%;
+    width: 100%;
+    background-color: #5D688A;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+*{
+    box-sizing: border-box;
+}
