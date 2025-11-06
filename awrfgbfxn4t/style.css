@@ -1,0 +1,34 @@
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-color: #EEEEEE;
+    margin: 0;
+    font-family: Helvetica;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 35%;
+    align-items: center;
+}
+#h1{
+    display: flex;
+    height: 40%;
+    width: 90%;
+    flex-direction: row;
+    background-color: lightblue;
+}
+#h2{
+    display: flex;
+    height: 60%;
+    width: 90%;
+    background-color: #DDDDDD;
+}
+a{
+    padding-right: 500px;
+    text-decoration: none;
+    color: black;
+}
