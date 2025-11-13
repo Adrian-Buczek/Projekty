@@ -6,6 +6,7 @@ body{
     background-color: #EEEEEE;
     margin: 0;
     font-family: Helvetica;
+    align-items: center;
 }
 header{
     display: flex;
@@ -20,15 +21,70 @@ header{
     width: 90%;
     flex-direction: row;
     background-color: lightblue;
+
+}
+#h12{
+display: flex;
+height: 100%;
+width: 20%;
+}
+#h13{
+    display: flex;
+    height: 100%;
+    width: 80%;
+    justify-content: center;
+    gap: 30px;
+    font-family: Helvetica;
+    padding-top: 10px;
 }
 #h2{
     display: flex;
     height: 60%;
     width: 90%;
     background-color: #DDDDDD;
+
 }
 a{
-    padding-right: 500px;
     text-decoration: none;
     color: black;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 65%;
+    margin: 0;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+
+hr{
+    width: 100%;
+}
+#tekst{
+    display: flex;
+    width: 200px;
+    height: 100px;
+}
+#input{
+    display: flex;
+    width: 150px;
+}
+footer{
+    display: flex;
+    height: 5%;
+    width: 90%;
+    background-color: lightblue;
+    padding: 10px;
+    justify-content: flex-end;
+}
+button{
+    display: flex;
+    width: 100px;
+    justify-content: center;
+    background-color: lightblue;
+    color: navy;
 }
