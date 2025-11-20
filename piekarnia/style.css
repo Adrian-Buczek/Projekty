@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 100vh;
+    font-family: Verdana;
+    background-image: linear-gradient(to bottom, teal, AliceBlue);
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    height: 10%;
+    gap: 200px;
+    font-size: 140%;
+    
+}
+header{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(160,82,45, 0.6);
+    width: 95%;
+    margin-top: 100px;
+    padding: 20px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: sandybrown;
+    width: 95%;
+    padding: 30px;
+    
+}
