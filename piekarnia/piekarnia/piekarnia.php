@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIEKARNIA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <?php
+    $polaczenie = mysqli_connect("localhost", "root", "", database:"piekarnia");
+    $zapytanie = "SELECT rodzaj, nazwa, gramatura, cena FROM wyroby";
+    $wynik = mysqli_query($polaczenie, $zapytanie);
+    ?>
+    <table>
+        <tr>
+            <th>Rodzaj</th>
+            <th>Nazwa</th>
+            <th>Gramatura</th>
+            <th>Cena</th>
+        </tr>
+        <?php
+        while($wiersz = mysqli_fetch_assoc($wynik)){
+            echo "<tr>
+            <td> {$wiersz['rodzaj']}</td>;
+            <td> {$wiersz['nazwa']}</td>;
+            <td> {$wiersz['gramatura']}</td>;
+            <td> {$wiersz['cena']}</td>;
+            </tr>";
+        }
+        ?>
+    </table>
+    <nav>
+        
+        <a href="kw1.html">Kwerenda1</a>
+        <a href="kw2.html">Kwerenda2</a>
+        <a href="kw3.html">Kwerenda3</a>
+        <a href="kw4.html">Kwerenda4</a>
+    </nav>
+    <img src="wypiekii.png" alt="Produkty naszej piekarni">
+<header>
+    <h1>WITAMY</h1>
+    <h4>NA STRONIE PIEKARNI</h4>
+    <p>Od 31 lat oferujemy najwyższej jakości pieczywo. Naturalnie świeże, naturalnie smaczne. Pieczemy wyłącznie wypieki na naturalnym zakwasie bez polepszaczy i zagęstników. Korzystamy wyłącznie z najlepszych ziaren pochodzących z ekologicznych upraw położonych w rejonach zgierskim i ozorkowskim.</p>
+</header>
+     <main>
+        <h4>Wybierz rodzaj wypieków:</h4>
+        <div id="main2">
+            <select name="rodzaj" id="rodzaj">
+
+                <option value="wybory">WYBORY CUKIERNICZE I CIASTKARSKIE</option>
+            </select>
+            <button type="button">Wybierz</button>
+        </div>
+        <table>
+            <tr>
+                <th>Rodzaj</th>
+                <th>Nazwa</th>
+                <th>Gramatura</th>
+                <th>Cena</th>
+            </tr>
+            <tr>
+                <td>Piczywo mieszane</td>
+                <td> chleb baltowski</td>
+                <td>0.6</td>
+                <td>3.45</td>
+            </tr>
+            <tr>
+                <td>Piczywo mieszane</td>
+                <td> chleb duzy wiejski</td>
+                <td>0.5</td>
+                <td>5.05</td>
+            </tr>
+            <tr>
+                <td>Piczywo mieszane</td>
+                <td> chleb z soja i slonecznikiem</td>
+                <td>0.5</td>
+                <td>3.05</td>
+            </tr>
+            <tr>
+                <td>Piczywo mieszane</td>
+                <td> chleb wieloziarnisty</td>
+                <td>0.4</td>
+                <td>2.65</td>
+            </tr>
+            <tr>
+                <td>Piczywo mieszane</td>
+                <td> chleb razowy 4 ziarna</td>
+                <td>0.5</td>
+                <td>3.05</td>
+            </tr>
+            <tr>
+                <td>Piczywo mieszane</td>
+                <td> chleb mieszany 4 ziarna</td>
+                <td>0.6</td>
+                <td>3.45</td>
+            </tr>
+        </table>
+    </main>
+
+    <footer>
+       <p>Autor: duabrbguhyrbouyr</p>
+       <p>Data: 27.11.2025</p>
+    </footer>
+</body>
+</html>
