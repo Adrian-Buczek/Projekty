@@ -46,14 +46,10 @@ main{
     color: white;
 }
 #SD{
+    display: flex;
     height: 90%;
     width: 100%;
     background-color: white;
-}
-#SDD{
-    display: flex;
-    flex-direction: column;
-    overflow-y: auto;
 }
 #SD1{
     display: flex;
@@ -65,9 +61,4 @@ footer{
     text-align: center;
     height: 10%;
     width: 100%;
-}
-img{
-    margin: 10px;
-    height: 300px;
-    float: left;
 }
