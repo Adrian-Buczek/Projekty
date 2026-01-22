@@ -8,7 +8,7 @@
 </head>
 <body>
     <?php
-    $conn = mysqli_connect("localhost", "root", "", "hodowla");
+    $conn = mysqli_connect("localhost", "root", "", "hodowla2");
     ?>
     <header>
         <h1>Hodowla świnek morskich - zamów świnkowe maluszki</h1>
@@ -26,7 +26,7 @@
             $sql = "SELECT * FROM rasy WHERE id = 1";
             $result = mysqli_query($conn, $sql);
             while($row = mysqli_fetch_assoc($result)){
-                echo "<H1>Ras: " . $row["rasa"]. "</H1>";
+                echo "<H1>Rasa: " . $row["rasa"]. "</H1>";
                 }
             ?>
              <?php
@@ -40,6 +40,7 @@
                 ";
                 }
             ?>
+            <hr>
             <h1>Świnki w tym miocie</h1>
             <?php
             $sql = "SELECT * FROM swinki WHERE id = 6";

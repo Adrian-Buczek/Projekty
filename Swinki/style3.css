@@ -15,13 +15,18 @@ header {
     text-align: center;
     height: 10%;
     width: 100%;
-    
+    align-items: center;
+    justify-content: center;
 }
 a{
     display: flex;
     text-decoration: none;
-    color: white;
+    color: rgb(165, 165, 165);
     font-size: 30px;
+}
+a:hover{
+    color: white;
+    cursor: pointer;
 }
 main{
     display: flex;
@@ -34,6 +39,7 @@ main{
   height: 100%;
   width: 80%;
   flex-direction: column;
+  overflow-y: auto;
 }
 #SG{
     display: flex;
@@ -43,22 +49,26 @@ main{
     justify-content: center;
     justify-content: space-around;
     text-decoration: none;
-    color: white;
 }
 #SD{
-    display: flex;
     height: 90%;
     width: 100%;
     background-color: white;
 }
-#SD1{
-    display: flex;
-    background-color: aqua;
-}
+
+
 footer{
     background-color: SaddleBrown;
 	color: white;
     text-align: center;
     height: 10%;
     width: 100%;
+}
+img{
+    margin: 10px;
+    height: 300px;
+    float: left;
+}
+aside{
+    color: white;
 }
