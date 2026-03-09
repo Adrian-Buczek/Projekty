@@ -33,7 +33,7 @@ nav{
     justify-content: center;
     gap: 30px;
     font-family: "Gaegu";
-    font-size: 50px;
+    font-size: 60px;
 
 }
 nav > a{
@@ -80,6 +80,7 @@ li:nth-child(even){
 li{
     list-style-position: inside;
     padding-left: 10px;
+    font-size: 30px;
 }
 header{
     display: flex;
@@ -112,13 +113,63 @@ footer{
     background-color: #194F82;
     color: white;
     font-family: "Fuzzy bubbles";
+    font-size: 30px;
 }
 #pasek{
     display: flex;
     height: 100%;
     width: 80%;
     background-color: #FFC10D;
+    overflow-x: auto;
+    align-items: center;
+    font-family: "Fuzzy bubbles";
+    font-size: 40px;
+    
 }
+
+#oferta1{
+    display: flex;
+    max-width: 440px;
+    max-height: 200px;
+    border-radius: 10px;
+    align-items: center;
+    background-color: burlywood;
+    padding: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: white;
+}
+#oferta1:nth-child(2){
+    background-color: rgb(255, 132, 0);
+}
+#oferta1:nth-child(3){
+    background-color: rgb(192, 255, 255);
+}
+#oferta1:nth-child(4){
+    background-color: #194F82;
+}
+#oferta1:nth-child(5){
+    background-color: #42d787;
+}
+#oferta1:nth-child(6){
+    background-color: #fffb00;
+}
+#oferta1:nth-child(7){
+    background-color: #c69dff;
+}
+#oferta11{
+    display: flex;
+    height: 100%;
+    width: 20%;
+    flex-direction: column;
+
+}
+#oferta1 > img{
+    display: flex;
+    height: 150px;
+    width: 230px;
+}
+
 
 
 #P1{
@@ -169,7 +220,7 @@ footer{
     height: 100%;
     width: 50%;
     align-items: center;
-    
+    font-size: 50px;
 }
 #PPP32{
     display: flex;
@@ -203,6 +254,7 @@ footer{
     height: 100%;
     width: 50%;
     align-items: center;
+    font-size: 50px;
 }
 #PP313{
     display: flex;
@@ -212,9 +264,21 @@ footer{
     align-items: center;
     justify-content: center;
     gap: 10px;
-    
+    font-size: 50px;
 }
 #numer{
+    display: flex;
+    background-color: #194F82;
+    width: 40%;
+    height: 100%;
+    border-radius: 5px;
+    border: 0;
+    font-family: "fuzzy bubbles";
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+#numer2{
     display: flex;
     background-color: #194F82;
     width: 40%;
@@ -236,6 +300,7 @@ footer{
     display: flex;
     height: 100%;
     width: 50%;
+    font-size: 50px;
 }
 #PP323{
     display: flex;
@@ -269,6 +334,39 @@ footer{
     height: 100%;
     width: 50%;
     align-items: center;
+    font-size: 50px;
+}
+#PP332{
+    display: flex;
+    height: 100%;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    
+}
+#kw1{
+    display: flex;
+    height: 90%;
+    width: 90%;
+    background-color: #FFC10D;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#kw1 > label{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height: 32%;
+    font-size: 50px;
+    
+}
+#cb1, #cb2, #cb3{
+display: flex;
+height: 60%;
+width: 15%;
 }
 #doll{
     display: flex;
