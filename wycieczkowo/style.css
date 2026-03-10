@@ -363,7 +363,7 @@ footer{
     font-size: 50px;
     
 }
-#cb1, #cb2, #cb3{
+#czekboksy > input{
 display: flex;
 height: 60%;
 width: 15%;
