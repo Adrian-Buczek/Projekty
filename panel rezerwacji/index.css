@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+}
+body{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 193, 111);
+}
+img{
+    height: 100px;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+    width: 100%;
+
+}
+article{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 100%;
+    background-color: aquamarine;
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    height: 51%;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    background-color: rgb(233, 233, 233);
+    border: 1px solid rgb(177, 177, 177);
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px rgb(158, 158, 158);
+}
+button{
+    display: flex;
+    height: 30px;
+    width: 130px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: 0;
+    background-color: rgb(214, 79, 26);
+    color: white;
+}
+button:hover{
+    background-color: rgb(99, 38, 13);;
+}
+    
+
+footer{
+    display: flex;
+    width: 100%;
+    height: 10%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+ol{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    padding-left: 20px;
+}
