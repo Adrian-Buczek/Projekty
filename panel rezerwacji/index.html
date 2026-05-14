@@ -16,18 +16,18 @@
             <h2>Lista wizyt</h2>
             <hr>
             <ul>
-                <li></li>
+                
             </ul>
         </article>
         <aside>
             <h2>Dodaj wizyte</h2>
             <form>
                 <label for="imie">Imie klienta:</label>
-                <input type="text" name="imie">
-                <span></span>
+                <input type="text" name="imie" id="imie">
+                <span id="simie"></span>
                 <label for="nazwisko">Nazwisko klienta:</label>
-                <input type="text" name="nazwisko">
-                <span></span>
+                <input type="text" name="nazwisko" id="nazwisko">
+                <span id="snazwisko"></span>
                 <label for="usluga">Usługi:</label>
                 <select name="usluga" id="usluga">
                     <option value="strzyzenie">strzyżenie</option>
@@ -35,15 +35,14 @@
                     <option value="farbowanie">farbowanie włosów</option>
                     <option value="kastracja">kastracja</option>
                 </select>
-                <span></span>
                 <label for="data">Data wizyty:</label>
-                <input type="date" name="data">
-                <span></span>
+                <input type="date" name="data" id="dataa">
+                <span id="sdata"></span>
                 <label for="godzina">Godzina wizyty</label>
-                <input type="time" name="godzina">
-                <span></span>
-                <button type="submit">Zarezerwuj wizyte</button>
-                <span></span>
+                <input type="time" name="godzina" id="godzina">
+                <span id="sgodzina"></span>
+                <button type="button" id="przycisk">Zarezerwuj wizyte</button>
+                <span id="sprzycisk"></span>
             </form>
         </aside>
     </main>
@@ -56,5 +55,6 @@
             <li>xxxxxxxxxxxx</li>
         </ol>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
