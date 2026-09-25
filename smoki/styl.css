@@ -1,0 +1,53 @@
+*{
+    
+    font-family: 'Georgia';
+    text-align: center;
+}
+
+header, footer{
+    background-color: tomato;
+    color: mistyrose;
+    padding: 10px;
+}
+nav{
+    width: 20%;
+    float: left;
+}
+nav > a{
+    display: block;
+    background-color: #FFAEA5;
+height: 170px;
+font-size: 200%;
+}
+nav > a:nth-child(1){
+    background-color: mistyrose;
+}
+footer{
+    clear: both;
+}
+#s2,#s3{
+    display: none;
+
+}
+table{
+    margin: auto;
+    width: 60%;
+    border: 1px dashed indigo;
+}
+main{
+    background-color: mistyrose;
+    width: 80%;
+    height: 510px;
+    overflow: auto;
+}
+select, button{
+    margin: 20px;
+
+}
+dt{
+    font-weight: bold;
+    font-style: italic;
+}
+dt:hover{
+    font-size: 1.8rem;
+}

@@ -7,20 +7,34 @@
     <link rel="stylesheet" href="styl.css">
 </head>
 <body>
+    <?php
+    $conn = mysqli_connect('localhost', 'root', '', 'smoki');
+
+    ?>
     <header>
         <h2>Poznaj smoki</h2>
     </header>
     <nav>
-        <a href="#"></a>
-        <a href="#"></a>
-        <a href="#"></a>
+        <a href="#" id="blok1">Baza</a>
+        <a href="#" id="blok2">Opisy</a>
+        <a href="#" id="blok3">Galeria</a>
     </nav>
     <main>
         <section id = "s1">
             <h3>Baza smoków</h3>
-            <form action="">
-                <select name="" id="">
-                    <option value=""></option>
+            <form action="" method="POST">
+                <select name="pochodzenie" id="pochodzenie">
+                    
+                    <?php
+                    $sql = "SELECT DISTINCT pochodzenie FROM smok ORDER BY pochodzenie ASC";
+                    $result = mysqli_query($conn, $sql);
+                    while($row = mysqli_fetch_assoc($result)){
+                        $pochodzenie = $row['pochodzenie'];
+                        echo "<option value='$pochodzenie'>$pochodzenie</option>";
+                    }
+
+                    ?>
+
                 </select>
                 <button>Szukaj</button>
             </form>
@@ -31,7 +45,21 @@
                     <th>Szerokość</th>
                 </tr>
                 <tr>
-                    <td></td>
+                    <?php
+                    if($_SERVER['REQUEST_METHOD'] == 'POST'){
+                        $pochodzenie = $_POST['pochodzenie'];
+                        $sql = "SELECT nazwa, dlugosc, szerokosc FROM smok WHERE pochodzenie = '$pochodzenie'";
+                        $result = mysqli_query($conn, $sql);
+
+                        while($row = mysqli_fetch_assoc($result)){
+                            echo "<tr>
+                            <td>$row[nazwa]</td>
+                            <td>$row[dlugosc]</td>
+                            <td>$row[szerokosc]</td>
+                            </tr>";
+                        }
+                    }
+                    ?>
                 </tr>
             </table>
         </section>
@@ -50,10 +78,18 @@
         </section>
         <section id = "s3">
             <h3>Galeria</h3>
+            <img src="smok1.jpg" alt="Smok czerwony">
+            <img src="smok2.jpg" alt="Smok zielony">
+            <img src="smok3.jpg" alt="Smok niebieski">
         </section>
+        
     </main>
     <footer>
         <p>Stronę opracował: 0000000000</p>
     </footer>
+    <?php
+    mysqli_close($conn);
+    ?>
+    <script src="script.js"></script>
 </body>
 </html>
